@@ -1,0 +1,78 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://ARCADECLASSIC.TTF" type="DynamicFontData" id=1]
+[ext_resource path="res://foreground-empty.png" type="Texture" id=2]
+[ext_resource path="res://RealWorld.tscn" type="PackedScene" id=3]
+[ext_resource path="res://MainMenu.gd" type="Script" id=4]
+[ext_resource path="res://cyberpunk-street.mp3" type="AudioStream" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 90
+outline_color = Color( 0.0196078, 0, 0, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 60
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.521569, 0.4, 0.678431, 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 30
+font_data = ExtResource( 1 )
+
+[node name="MainMenu" type="Node2D"]
+script = ExtResource( 4 )
+MainGameScene = ExtResource( 3 )
+
+[node name="Scene" type="TextureRect" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="Scene"]
+margin_left = 152.0
+margin_top = -40.0
+margin_right = 896.0
+margin_bottom = 154.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 1 )
+text = "Valgar"
+align = 1
+valign = 1
+
+[node name="Button" type="Button" parent="Scene"]
+modulate = Color( 0.788235, 0.415686, 0.917647, 0.411765 )
+margin_left = 360.0
+margin_top = 184.0
+margin_right = 672.0
+margin_bottom = 304.0
+custom_fonts/font = SubResource( 2 )
+custom_styles/hover = SubResource( 4 )
+
+[node name="Label2" type="Label" parent="Scene"]
+margin_left = 488.0
+margin_top = 232.0
+margin_right = 592.0
+margin_bottom = 288.0
+custom_fonts/font = SubResource( 3 )
+text = "Play"
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 336.0
+margin_top = 448.0
+margin_right = 914.0
+margin_bottom = 499.0
+custom_fonts/font = SubResource( 3 )
+text = "Created By   Atilla  Colak"
+
+[node name="CyberPunk" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+autoplay = true
+
+[connection signal="button_up" from="Scene/Button" to="." method="_on_Button_button_up"]

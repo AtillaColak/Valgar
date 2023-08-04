@@ -1,0 +1,539 @@
+[gd_scene load_steps=46 format=2]
+
+[ext_resource path="res://player/Jamie.tscn" type="PackedScene" id=1]
+[ext_resource path="res://player/Modern_Exteriors_Complete_Tileset.png" type="Texture" id=2]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/2_City_Terrains_Singles_16x16/ME_Singles_City_Terrains_16x16_Asphalt_1_Variation_24.png" type="Texture" id=3]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/2_City_Terrains_Singles_16x16/ME_Singles_City_Terrains_16x16_Asphalt_1_Variation_22.png" type="Texture" id=4]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/2_City_Terrains_Singles_16x16/ME_Singles_City_Terrains_16x16_Sidewalk_1_2.png" type="Texture" id=5]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/2_City_Terrains_Singles_16x16/ME_Singles_City_Terrains_16x16_Asphalt_1_Variation_26.png" type="Texture" id=6]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Danger_Sign_11.png" type="Texture" id=7]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Holes_9.png" type="Texture" id=8]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/2_City_Terrains_Singles_16x16/ME_Singles_City_Terrains_16x16_Sidewalk_1_47.png" type="Texture" id=9]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Car_Wreck_10.png" type="Texture" id=10]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/5_Floor_Modular_Building_Singles_16x16/ME_Singles_Floor_Modular_Building_16x16_Ground_Floor_Shop_4.png" type="Texture" id=11]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Danger_Sign_8.png" type="Texture" id=12]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/5_Floor_Modular_Building_Singles_16x16/ME_Singles_Floor_Modular_Building_16x16_Middle_Floor_4.png" type="Texture" id=13]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Container_House_1.png" type="Texture" id=14]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Dumpster_3.png" type="Texture" id=15]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Bench_1.png" type="Texture" id=16]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/5_Floor_Modular_Building_Singles_16x16/ME_Singles_Floor_Modular_Building_16x16_ATM_1.png" type="Texture" id=17]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/5_Floor_Modular_Building_Singles_16x16/ME_Singles_Floor_Modular_Building_16x16_Middle_Floor_3.png" type="Texture" id=18]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Junk_1.png" type="Texture" id=19]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Dumpster_2.png" type="Texture" id=20]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/5_Floor_Modular_Building_Singles_16x16/ME_Singles_Floor_Modular_Building_16x16_Middle_Floor_2.png" type="Texture" id=21]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Car_Wreck_5.png" type="Texture" id=22]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Car_Wreck_7.png" type="Texture" id=23]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Car_Wreck_1.png" type="Texture" id=24]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Junk_Shack_1.png" type="Texture" id=25]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Manhole_6.png" type="Texture" id=26]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/6_Garage_Sales_Singles_16x16/ME_Singles_Garage_Sales_16x16_Air_Conditioner_Unit_1.png" type="Texture" id=27]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/6_Garage_Sales_Singles_16x16/ME_Singles_Garage_Sales_16x16_Graffiti_17.png" type="Texture" id=28]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/6_Garage_Sales_Singles_16x16/ME_Singles_Garage_Sales_16x16_Signboard_1.png" type="Texture" id=29]
+[ext_resource path="res://player/Modern_Exteriors_Complete_Singles_16x16/ME_Singles_Vehicles_16x16_Car_Down_6.png" type="Texture" id=30]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/10_Vehicles_Singles_16x16/ME_Singles_Vehicles_16x16_Bus_Right_6.png" type="Texture" id=31]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/15_Police_Station_Singles_16x16/ME_Singles_Police_Station_16x16_Police_Car_1.png" type="Texture" id=32]
+[ext_resource path="res://player/Modern_Exteriors_Complete_Singles_16x16/ME_Singles_Vehicles_16x16_Car_Left_6.png" type="Texture" id=33]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Street_Lamp_4.png" type="Texture" id=34]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Street_Lamp_3.png" type="Texture" id=35]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/5_Floor_Modular_Building_Singles_16x16/ME_Singles_Floor_Modular_Building_16x16_Grate_3.png" type="Texture" id=36]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/15_Police_Station_Singles_16x16/ME_Singles_Police_Station_16x16_Barrier_1.png" type="Texture" id=37]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/10_Vehicles_Singles_16x16/ME_Singles_Vehicles_16x16_Bus_Stop_1.png" type="Texture" id=38]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/4_Generic_Building_Singles_16x16/ME_Singles_Generic_Building_16x16_Condo_3_45.png" type="Texture" id=39]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Billboard_5.png" type="Texture" id=40]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/10_Vehicles_Singles_16x16/ME_Singles_Vehicles_16x16_Bus_Left_6.png" type="Texture" id=41]
+[ext_resource path="res://player/Modern_Exteriors_Complete_Singles_16x16/ME_Singles_Camping_16x16_Campfire_1.png" type="Texture" id=42]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/10_Vehicles_Singles_16x16/ME_Singles_Vehicles_16x16_Bus_Stop_Sign_3.png" type="Texture" id=43]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/4_Generic_Building_Singles_16x16/ME_Singles_Generic_Building_16x16_Condo_4_40.png" type="Texture" id=44]
+[ext_resource path="res://player/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16/ME_Singles_City_Props_16x16_Barrel_3.png" type="Texture" id=45]
+
+[node name="RealWorld" type="Node2D"]
+
+[node name="YSort" type="YSort" parent="."]
+
+[node name="Building" type="Sprite" parent="YSort"]
+position = Vector2( 204, 251 )
+scale = Vector2( 1.03108, 1 )
+texture = ExtResource( 2 )
+hframes = 7
+vframes = 8
+frame = 49
+region_rect = Rect2( 410, 3791, 400, 558 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="YSort/Building"]
+position = Vector2( -1.93971, -43 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="YSort/Building/StaticBody2D"]
+polygon = PoolVector2Array( 449.042, 322, 448.072, 363, 462.62, 369, 587.731, 368, 584.822, 303, 446.133, 305 )
+
+[node name="Background" type="Sprite" parent="YSort"]
+position = Vector2( 46, 521 )
+scale = Vector2( 5.65625, 3.6875 )
+texture = ExtResource( 4 )
+
+[node name="Background2" type="Sprite" parent="YSort"]
+position = Vector2( 381, 468 )
+scale = Vector2( 5.65625, 3.6875 )
+texture = ExtResource( 4 )
+
+[node name="Background3" type="Sprite" parent="YSort"]
+position = Vector2( 44, 468 )
+scale = Vector2( 5.65625, 3.6875 )
+texture = ExtResource( 4 )
+
+[node name="Background4" type="Sprite" parent="YSort"]
+position = Vector2( 101, 516 )
+scale = Vector2( 5.65625, 3.6875 )
+texture = ExtResource( 4 )
+
+[node name="Background5" type="Sprite" parent="YSort"]
+position = Vector2( 342, 522 )
+scale = Vector2( 10.5781, 3.6875 )
+texture = ExtResource( 4 )
+
+[node name="Background6" type="Sprite" parent="YSort"]
+position = Vector2( 304, 469 )
+scale = Vector2( 5.65625, 3.6875 )
+texture = ExtResource( 4 )
+
+[node name="Background7" type="Sprite" parent="YSort"]
+position = Vector2( 100, 468 )
+scale = Vector2( 5.65625, 3.6875 )
+texture = ExtResource( 4 )
+
+[node name="Background 2" type="Sprite" parent="YSort"]
+position = Vector2( 714.437, 119 )
+scale = Vector2( 19.2773, 7.4375 )
+texture = ExtResource( 3 )
+
+[node name="Background 12" type="Sprite" parent="YSort"]
+position = Vector2( 822, 104 )
+scale = Vector2( 2.85937, 2.3125 )
+texture = ExtResource( 3 )
+
+[node name="Background 13" type="Sprite" parent="YSort"]
+position = Vector2( 885, 437 )
+scale = Vector2( 2.85937, 2.3125 )
+texture = ExtResource( 3 )
+
+[node name="Background 14" type="Sprite" parent="YSort"]
+position = Vector2( 225, 541 )
+scale = Vector2( 13.4531, 1.23437 )
+texture = ExtResource( 3 )
+
+[node name="Background 15" type="Sprite" parent="YSort"]
+position = Vector2( 862, 276 )
+scale = Vector2( 2.85937, 2.3125 )
+texture = ExtResource( 3 )
+
+[node name="Background 16" type="Sprite" parent="YSort"]
+position = Vector2( 715, 407 )
+scale = Vector2( 19.2188, 23.2188 )
+texture = ExtResource( 6 )
+
+[node name="Background 3" type="Sprite" parent="YSort"]
+position = Vector2( 59.5, 581 )
+scale = Vector2( 7.3125, 2.375 )
+texture = ExtResource( 5 )
+
+[node name="Background 4" type="Sprite" parent="YSort"]
+position = Vector2( 175, 581 )
+scale = Vector2( 7.3125, 2.375 )
+texture = ExtResource( 5 )
+
+[node name="Background 5" type="Sprite" parent="YSort"]
+position = Vector2( 503, 581 )
+scale = Vector2( 7.3125, 2.375 )
+texture = ExtResource( 5 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="YSort/Background 5"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="YSort/Background 5/StaticBody2D"]
+polygon = PoolVector2Array( -68.6496, 5.89474, -68.6496, 9.26315, 71.1111, 9.26315, 71.2479, 3.78947 )
+
+[node name="Background 6" type="Sprite" parent="YSort"]
+position = Vector2( 699, 581 )
+scale = Vector2( 7.3125, 2.375 )
+texture = ExtResource( 5 )
+
+[node name="Background 10" type="Sprite" parent="YSort"]
+position = Vector2( 831.25, 581 )
+scale = Vector2( 9.28125, 2.375 )
+texture = ExtResource( 5 )
+
+[node name="Background 11" type="Sprite" parent="YSort"]
+position = Vector2( 957.75, 581 )
+scale = Vector2( 8.21875, 2.375 )
+texture = ExtResource( 5 )
+
+[node name="Background 7" type="Sprite" parent="YSort"]
+position = Vector2( 587, 581 )
+scale = Vector2( 7.3125, 2.375 )
+texture = ExtResource( 5 )
+
+[node name="Background 8" type="Sprite" parent="YSort"]
+position = Vector2( 401, 581 )
+scale = Vector2( 7.3125, 2.375 )
+texture = ExtResource( 5 )
+
+[node name="Background 9" type="Sprite" parent="YSort"]
+position = Vector2( 289, 581 )
+scale = Vector2( 7.3125, 2.375 )
+texture = ExtResource( 5 )
+
+[node name="Jamie" parent="." instance=ExtResource( 1 )]
+position = Vector2( 517, 482 )
+
+[node name="MeSinglesCityTerrains16X16Sidewalk147" type="Sprite" parent="."]
+position = Vector2( 741.5, 559 )
+scale = Vector2( 1.54464, 1.41667 )
+texture = ExtResource( 9 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MeSinglesCityTerrains16X16Sidewalk147"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="MeSinglesCityTerrains16X16Sidewalk147/StaticBody2D"]
+position = Vector2( -0.9711, -0.705902 )
+polygon = PoolVector2Array( -485.225, -396, -482.636, -85.4118, -392.647, -85.4118, -212.023, -84, -213.965, -204, -69.5954, -202.588, -72.8324, -274.588, -181.919, -264.706, -211.052, -242.118, -212.67, -309.176, -202.312, -305.647, 181.595, -305.647, 182.243, -397.412 )
+
+[node name="MeSinglesCityProps16X16Bench1" type="Sprite" parent="."]
+position = Vector2( 91, 463 )
+scale = Vector2( 2.375, 1.40625 )
+texture = ExtResource( 16 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MeSinglesCityProps16X16Bench1"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="MeSinglesCityProps16X16Bench1/StaticBody2D"]
+polygon = PoolVector2Array( -13.8947, -9.24445, -14.3158, 15.6444, 14.7368, 14.2222, 14.3158, -11.3778 )
+
+[node name="MeSinglesCityProps16X16Barrel3" type="Sprite" parent="."]
+position = Vector2( 327, 462 )
+scale = Vector2( 2.375, 1.375 )
+texture = ExtResource( 16 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MeSinglesCityProps16X16Barrel3"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="MeSinglesCityProps16X16Barrel3/StaticBody2D"]
+polygon = PoolVector2Array( -14.7368, -8.72729, -14.3158, 17.4546, 13.4737, 16.7273, 13.4737, -8 )
+
+[node name="MeSinglesCityProps16X16CarWreck3" type="Sprite" parent="."]
+position = Vector2( 970, 58 )
+texture = ExtResource( 14 )
+
+[node name="MeSinglesCityProps16X16DangerSign11" type="Sprite" parent="MeSinglesCityProps16X16CarWreck3"]
+position = Vector2( -23, 27 )
+scale = Vector2( 1.4375, 1.53125 )
+texture = ExtResource( 7 )
+
+[node name="MeSinglesCityProps16X16Dumpster1" type="Sprite" parent="."]
+position = Vector2( 17.5, 462 )
+scale = Vector2( 1.09375, 1.125 )
+texture = ExtResource( 15 )
+
+[node name="MeSinglesCityProps16X16Dumpster2" type="Sprite" parent="MeSinglesCityProps16X16Dumpster1"]
+position = Vector2( 1, 29.5 )
+scale = Vector2( 1.1875, 1.09375 )
+texture = ExtResource( 20 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MeSinglesCityProps16X16Dumpster1"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="MeSinglesCityProps16X16Dumpster1/StaticBody2D"]
+polygon = PoolVector2Array( -19.6571, -14.2222, -16, 50.6667, 19.6571, 50.6667, 20.5714, -14.2222 )
+
+[node name="MeSinglesCityProps16X16Holes9" type="Sprite" parent="."]
+position = Vector2( 796, 76 )
+scale = Vector2( 1.46875, 1.25 )
+texture = ExtResource( 8 )
+
+[node name="MeSinglesCityProps16X16CarWreck7" type="Sprite" parent="."]
+position = Vector2( 718, 31 )
+texture = ExtResource( 23 )
+
+[node name="MeSinglesCityProps16X16Junk1" type="Sprite" parent="."]
+position = Vector2( 756, 76 )
+texture = ExtResource( 19 )
+
+[node name="MeSinglesCityProps16X16JunkShack1" type="Sprite" parent="."]
+position = Vector2( 639, 45 )
+texture = ExtResource( 25 )
+
+[node name="MeSinglesCityProps16X16Manhole6" type="Sprite" parent="."]
+position = Vector2( 697, 101 )
+texture = ExtResource( 26 )
+
+[node name="MeSinglesCityProps16X16CarWreck10" type="Sprite" parent="."]
+position = Vector2( 563, 51 )
+texture = ExtResource( 10 )
+
+[node name="MeSinglesCityProps16X16CarWreck1" type="Sprite" parent="."]
+position = Vector2( 548, 12 )
+texture = ExtResource( 24 )
+
+[node name="MeSinglesCityProps16X16CarWreck5" type="Sprite" parent="."]
+position = Vector2( 777, 28 )
+texture = ExtResource( 22 )
+
+[node name="MeSinglesCityProps16X16ContainerModular11" type="Sprite" parent="."]
+position = Vector2( 662, 63 )
+scale = Vector2( 1.9375, 1.6875 )
+texture = ExtResource( 12 )
+
+[node name="MeSinglesFloorModularBuilding16X16GroundFloorBakery10" type="Sprite" parent="."]
+position = Vector2( 544, 224 )
+scale = Vector2( 1.50893, 1.77083 )
+texture = ExtResource( 11 )
+
+[node name="MeSinglesFloorModularBuilding16X16MiddleFloor4" type="Sprite" parent="."]
+position = Vector2( 837, 250 )
+texture = ExtResource( 13 )
+
+[node name="MeSinglesFloorModularBuilding16X16MiddleFloor3" type="Sprite" parent="."]
+position = Vector2( 838, 310 )
+texture = ExtResource( 18 )
+
+[node name="MeSinglesFloorModularBuilding16X16MiddleFloor2" type="Sprite" parent="."]
+position = Vector2( 837, 198 )
+texture = ExtResource( 21 )
+
+[node name="MeSinglesFloorModularBuilding16X16Atm1" type="Sprite" parent="."]
+position = Vector2( 421, 237 )
+texture = ExtResource( 17 )
+
+[node name="MeSinglesFloorModularBuilding16X16Atm2" type="Sprite" parent="."]
+position = Vector2( 447, 237 )
+texture = ExtResource( 17 )
+
+[node name="MeSinglesFloorModularBuilding16X16RoofProps1" type="Sprite" parent="."]
+position = Vector2( 794, 161 )
+texture = ExtResource( 27 )
+
+[node name="MeSinglesGarageSales16X16AirConditionerUnit3" type="Sprite" parent="."]
+position = Vector2( 816, 162 )
+texture = ExtResource( 27 )
+
+[node name="MeSinglesGarageSales16X16AirConditionerUnit1" type="Sprite" parent="."]
+position = Vector2( 841, 162 )
+texture = ExtResource( 27 )
+
+[node name="MeSinglesGarageSales16X16AirConditionerUnit2" type="Sprite" parent="."]
+position = Vector2( 869, 162 )
+texture = ExtResource( 27 )
+
+[node name="MeSinglesGarageSales16X16Graffiti17" type="Sprite" parent="."]
+position = Vector2( 800, 315 )
+texture = ExtResource( 28 )
+
+[node name="MeSinglesGarageSales16X16Signboard1" type="Sprite" parent="."]
+position = Vector2( 627, 66 )
+texture = ExtResource( 29 )
+
+[node name="MeSinglesVehicles16X16CarDown6" type="Sprite" parent="."]
+position = Vector2( 423, 24 )
+texture = ExtResource( 30 )
+
+[node name="MeSinglesPoliceStation16X16PoliceCar1" type="Sprite" parent="."]
+position = Vector2( 43, 567 )
+texture = ExtResource( 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MeSinglesPoliceStation16X16PoliceCar1"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="MeSinglesPoliceStation16X16PoliceCar1/StaticBody2D"]
+polygon = PoolVector2Array( -42, -14, -41, 20, 33, 25, 42, 15, 39, -14 )
+
+[node name="MeSinglesVehicles16X16CarLeft6" type="Sprite" parent="."]
+position = Vector2( 481, 14 )
+texture = ExtResource( 33 )
+
+[node name="MeSinglesVehicles16X16BusRight6" type="Sprite" parent="."]
+position = Vector2( 473, 65 )
+texture = ExtResource( 31 )
+
+[node name="MeSinglesCityProps16X16StreetLamp3" type="Sprite" parent="."]
+position = Vector2( 677, 487 )
+scale = Vector2( 1.15625, 1.03125 )
+texture = ExtResource( 35 )
+
+[node name="MeSinglesCityProps16X16StreetLamp4" type="Sprite" parent="."]
+position = Vector2( 786, 488 )
+scale = Vector2( 1.15625, 1.0625 )
+texture = ExtResource( 34 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate3" type="Sprite" parent="."]
+position = Vector2( 421, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate4" type="Sprite" parent="."]
+position = Vector2( 619, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate13" type="Sprite" parent="."]
+position = Vector2( 895, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate21" type="Sprite" parent="."]
+position = Vector2( 983, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate25" type="Sprite" parent="."]
+position = Vector2( 990, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate26" type="Sprite" parent="."]
+position = Vector2( 1011, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate22" type="Sprite" parent="."]
+position = Vector2( 959, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate23" type="Sprite" parent="."]
+position = Vector2( 937, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate24" type="Sprite" parent="."]
+position = Vector2( 915, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate14" type="Sprite" parent="."]
+position = Vector2( 875, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate15" type="Sprite" parent="."]
+position = Vector2( 851, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate16" type="Sprite" parent="."]
+position = Vector2( 828, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate17" type="Sprite" parent="."]
+position = Vector2( 804, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate18" type="Sprite" parent="."]
+position = Vector2( 780, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate19" type="Sprite" parent="."]
+position = Vector2( 757, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate20" type="Sprite" parent="."]
+position = Vector2( 733, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate5" type="Sprite" parent="."]
+position = Vector2( 595, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate6" type="Sprite" parent="."]
+position = Vector2( 571, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate7" type="Sprite" parent="."]
+position = Vector2( 552, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate8" type="Sprite" parent="."]
+position = Vector2( 529, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate9" type="Sprite" parent="."]
+position = Vector2( 505, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate10" type="Sprite" parent="."]
+position = Vector2( 485, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate11" type="Sprite" parent="."]
+position = Vector2( 461, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesFloorModularBuilding16X16Grate12" type="Sprite" parent="."]
+position = Vector2( 441, 114 )
+scale = Vector2( 1.625, 1 )
+texture = ExtResource( 36 )
+
+[node name="MeSinglesPoliceStation16X16Barrier1" type="Sprite" parent="."]
+position = Vector2( 647, 114 )
+texture = ExtResource( 37 )
+
+[node name="MeSinglesPoliceStation16X16Barrier2" type="Sprite" parent="."]
+position = Vector2( 675, 114 )
+texture = ExtResource( 37 )
+
+[node name="MeSinglesPoliceStation16X16Barrier3" type="Sprite" parent="."]
+position = Vector2( 705, 114 )
+scale = Vector2( 1.125, 1 )
+texture = ExtResource( 37 )
+
+[node name="MeSinglesCityProps16X16Barrel4" type="Sprite" parent="."]
+position = Vector2( 991, 19 )
+texture = ExtResource( 45 )
+
+[node name="MeSinglesCityProps16X16Billboard5" type="Sprite" parent="MeSinglesCityProps16X16Barrel4"]
+position = Vector2( -91, 25 )
+texture = ExtResource( 40 )
+
+[node name="MeSinglesCamping16X16Campfire1" type="Sprite" parent="MeSinglesCityProps16X16Barrel4/MeSinglesCityProps16X16Billboard5"]
+position = Vector2( -62, 10 )
+texture = ExtResource( 42 )
+
+[node name="MeSinglesGenericBuilding16X16Condo345" type="Sprite" parent="."]
+position = Vector2( 733, 261 )
+texture = ExtResource( 39 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MeSinglesGenericBuilding16X16Condo345"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="MeSinglesGenericBuilding16X16Condo345/StaticBody2D"]
+polygon = PoolVector2Array( -50, -75, -49, 77, -41, 83, 285, 81, 286, -70, 164, -69, 164, -108, 44, -111, 43, -80, -48, -80 )
+
+[node name="MeSinglesGenericBuilding16X16Condo440" type="Sprite" parent="."]
+position = Vector2( 957.75, 266 )
+scale = Vector2( 1.29688, 0.585937 )
+texture = ExtResource( 44 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MeSinglesGenericBuilding16X16Condo440"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="MeSinglesGenericBuilding16X16Condo440/StaticBody2D"]
+polygon = PoolVector2Array( 50.3133, -459.093, 50.3133, 568.32, 41.8314, 566.613, 43.3735, -462.507, 43.3735, -462.507 )
+
+[node name="MeSinglesVehicles16X16BusStop1" type="Sprite" parent="."]
+position = Vector2( 739, 498 )
+texture = ExtResource( 38 )
+
+[node name="MeSinglesVehicles16X16BusStopSign3" type="Sprite" parent="."]
+position = Vector2( 682, 497 )
+texture = ExtResource( 43 )
+
+[node name="MeSinglesVehicles16X16BusLeft6" type="Sprite" parent="."]
+position = Vector2( 737.5, 543.5 )
+scale = Vector2( 1.27679, 1.04688 )
+texture = ExtResource( 41 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MeSinglesVehicles16X16BusLeft6"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="MeSinglesVehicles16X16BusLeft6/StaticBody2D"]
+polygon = PoolVector2Array( -59.1328, -12.8955, -64.6154, 34.8657, 70.0979, 34.8657, 69.3147, -30.0895, -50.5175, -29.1343 )
