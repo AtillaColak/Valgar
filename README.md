@@ -12,15 +12,7 @@ Alphonso explains to Whisker that this is not his usual bus. This is Valgar Expr
 At the end of the game, there will be a clip where Whisker will have our fame and fortune and will have a forward in time for about 10 years where we became a successful fiction author and wrote books about what we saw in these Neverland realms.  
 
 ## So Far 
-So far I have created the initial scene with all the character animations and moving mechanisms.  
-So don’t worry about the character mechanisms as I know how to take care of it. Our primary concern is creating these different realm scenes, a bus scene, and connecting these scenes visually (like a visual in the initial scene to get in the bus and so on). 
-
-The art assets are there in the file so you can use those. I think you should start working with sketching the first neverland realm, and visual in the first scene to get on the bus. 
-Then, we can start with the character combat mechanism. 
-
-You can look at the second video-serie link I have put, making an action rpg game, to get help building the Neverland realms. 
-
-We could also try different pixel sizes for each different realm. Like 16x16 to 32x32. 
+First part of the game is done: basic character mechanics, scene, design, character actions, and interface and music.
 
 ### To Fix: 
 Change the menu interface. 
@@ -42,6 +34,6 @@ Make sure the character I’ve used is free for commercial use and maybe use a d
 The city scene: 
 A visual for getting on the bus, like there should be a popup message on top that says “get on the bus” and next to the bus there would be a yellow circle type of thing to indicate where to enter the bus. 
 Adding more detail to city scenes like maybe character assets to make it more realistic or more buildings etc…
-Adding character movement sounds. (Atilla)
-Adding jumping mechanism Character (Atilla)
-Some collusion fix-ups with surrounding buildings (Atilla)
+Adding character movement sounds.
+Adding jumping mechanism Character
+Some collusion fix-ups with surrounding buildings
